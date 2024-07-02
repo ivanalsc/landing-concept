@@ -20,3 +20,35 @@ body {
   color: rgb(var(--foreground-rgb));
   background: #1E1E1E;
 }
+.vector-1{
+  top: -8rem;
+  left: -15rem;
+  transform: rotate(30deg);
+  -webkit-transform: rotate(30deg);
+  -moz-transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  -o-transform: rotate(30deg);
+  z-index: 2;
+}
+.vector-2{
+  bottom: -5rem;
+  right: -8rem;
+  transform: rotate(-15deg);
+  -webkit-transform: rotate(-15deg);
+  -moz-transform: rotate(-15deg);
+  -ms-transform: rotate(-15deg);
+  -o-transform: rotate(-15deg);
+  z-index: 2;
+}
+@media (min-width: 768px){
+  .vector-1{
+    top: -15rem;
+    left: -30rem;
+
+  }
+  .vector-2{
+    bottom: -5rem;
+    right: -30rem;
+
+  }
+}

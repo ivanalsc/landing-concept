@@ -15,7 +15,9 @@ const config: Config = {
       },
       colors :{
         'lime':'#D1EF53',
-        'customBlack': "#1E1E1E"
+        'customBlack': "#1E1E1E",
+        'customWhite': "#E9E3DC",
+        'lila': "#B3A0CD"
       }
     },
   },
