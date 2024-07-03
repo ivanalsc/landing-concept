@@ -1,4 +1,6 @@
+
 import Image from "next/image";
+import styles from './Hero.module.css'
 
 interface MyImageProps {
     src: string;
@@ -9,7 +11,7 @@ interface MyImageProps {
 
   const Hero: React.FC<MyImageProps> = ({ src, alt, width, height }) => {
     return(
-        <div>
+        <div className={styles.hero}>
             <div className="mt-8">
                 <p className="text-3xl md:text-7xl text-center">
                 NEW YORK’S FAVORITE HAMBURGER

@@ -1,6 +1,6 @@
 export default function Footer({font}){
     return(
-        <footer className="bg-lila w-4/5 m-auto rounded-md text-customBlack p-8 relative z-1">
+        <footer className="bg-lila w-4/5 m-auto rounded-md text-customBlack p-8 relative z-1 mb-8">
             <div className="flex flex-col gap-8 md:flex-row md:gap-24">
                 <p>ROCK 'N<br/> BURGUER</p>
                <div className="flex flex-col">

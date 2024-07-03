@@ -16,3 +16,16 @@
     top: 2px;
     left: 2px;
 }
+.fadeIn{
+
+    animation-name: fadeIn;
+    animation-duration: 4s;
+}
+@keyframes fadeIn {
+    25% {opacity: 0;}
+    50% {opacity: 0.25;}
+    75% {opacity: 0.50;}
+    100% {opacity: 1;}
+
+
+  }

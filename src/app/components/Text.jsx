@@ -1,7 +1,8 @@
+
 export default function Text(){
     return(
         <>
-        <p className="text-lime mt-8 text-3xl md:text-6xl">THE BEST BURGUER</p>
+        <marquee className={`text-lime my-16 text-3xl md:text-6xl`}>THE BEST BURGER · THE BEST BURGER · THE BEST BURGER</marquee>
         </>
     )
 }

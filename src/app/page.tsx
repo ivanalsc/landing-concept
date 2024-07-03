@@ -21,7 +21,7 @@ export default function Home() {
       <Banners />
     </main>
     <Text/>
-    <div className="w-5/5 m-auto mt-8 overflow-hidden pb-16">
+    <div className="w-5/5 m-auto overflow-hidden pb-16">
     <div className="w-4/5 m-auto" >
       <Image alt="" src="/fullWidthImage.png" width={1340} height={503} />
     </div>
