@@ -5,7 +5,7 @@ export default function BottomSection() {
   return (
     <>
       <div className="w-4/5 m-auto">
-        <Image alt="" src="/fullWidthImage.png" width={1340} height={503} />
+        <Image alt="" src="/fullWidthBanner.png" width={1340} height={503} />
       </div>
       <div className="relative mt-16 mb-16 w-4/5 m-auto">
         <Image
