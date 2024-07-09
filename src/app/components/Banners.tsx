@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Banners(){
     return(
-        <div className="mt-8 flex flex-col md:flex-row gap-y-4 gap-x-4">
+        <div className="mt-8 flex flex-col md:flex-row justify-center gap-y-4 gap-x-4">
             <div className="relative">
                 <Image src="/fries.png" alt="" width={650} height={753} className=""/>
                 <div className="absolute bg-customBlack rounded-md p-4 bottom-8 left-4">
